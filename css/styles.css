@@ -1,0 +1,104 @@
+:root {
+  --dark-bg: #1f2937;
+	--main-text: #f9faf8;
+	--secondary-text: #e5e7e8;
+	--button-color: #3882f6;
+	--info-quote: #1f2937;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+nav {
+	height: 70px;
+	width: 100%;
+  background-color: var(--dark-bg);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav .logo {
+	color: var(--main-text);
+	font-weight: 700;
+	font-size: 24px;
+	margin-left: 11%;
+	text-decoration: none;
+}
+
+.nav-list {
+	display: inline-block;
+	margin-right: 11%;
+	width: 450px;
+}
+
+.nav-list ul {
+	display: flex;
+	justify-content: space-between;
+	color: var(--secondary-text);
+	font-size: 18px;
+	list-style: none;
+	padding: 0;
+}
+
+.nav-list li {
+	width: 130px;
+	background-image: url(../img/cookie.png);
+	background-repeat: no-repeat;
+	background-position: 0px 15px;
+	padding-left: 30px;
+}
+
+main {
+
+}
+
+main .welcome {
+	height: 465px;
+	width: 100%;
+	background-color: var(--dark-bg);
+	padding-top: 90px;
+}
+
+.welcome img {
+	width: 30%;
+	margin-right: 11.7%;
+	float: right;
+}
+
+.welcome div {
+	display: block;
+	width: 50%;
+	padding-left: 11%;
+
+}
+
+h1 {
+	color: var(--main-text);
+	font-weight: 900;
+	font-style: bold;
+	font-size: 48px;
+	margin: 0;
+}
+
+.welcome p {
+	color: var(--secondary-text);
+}
+
+.welcome a {
+	color: var(--main-text);
+	font-size: 24px;
+	font-weight: 700;
+	width: 130px;
+	height: 40px;
+	background-color: var(--button-color);
+	padding: 5.5px 29.5px;
+	border-radius: 8px;
+	text-decoration: none;
+	margin-top: 150px;
+}
